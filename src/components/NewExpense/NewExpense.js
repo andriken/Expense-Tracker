@@ -1,9 +1,8 @@
-import React  from "react";
+import React, { useState }  from "react";
 
 import './NewExpense.css';
 import ExpenseForm from './ExpenseForm';
 import { Button, Row } from "reactstrap";
-import { useState } from "react/cjs/react.development";
 
 
 const NewExpense = (props) => {
