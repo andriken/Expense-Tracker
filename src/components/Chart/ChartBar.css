@@ -1,0 +1,41 @@
+.expenses .chart .bar:nth-child(odd) .fill {
+  background-color: #684E6E;
+}
+
+.expenses .chart .bar:nth-child(even) .fill {
+  background-color: #55385C;
+}
+
+.expenses .chart .bar, .expenses .chart .bar .fill {
+  border-radius: 25px;
+}
+
+.expenses .chart .bar {
+  height: 100%;
+  margin:0 5px;
+  padding: 0;
+  color:#A08FA4;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .expenses .chart .bar .fill {
+      width: 25px;
+  }
+
+  .chart {
+      overflow-y: scroll;
+  }
+}
+
+@media (min-width: 768px) {
+  .expenses .chart .bar {
+      margin: 0 10px;
+  }
+}
+
+@media (min-width:992px) {
+  .expenses .chart .bar {
+      margin: 0 18px;
+  }
+}

@@ -1,0 +1,13 @@
+.expenses .chart {
+  height: 320px;
+  padding: 55px 23px;
+  background-color: #42224A;
+  border-radius: 40px;
+  align-items: flex-end;   
+}
+
+@media (max-width: 768px) {
+  .chart {
+      overflow-y: scroll;
+  }
+}

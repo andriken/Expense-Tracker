@@ -1,0 +1,22 @@
+.expense-item {
+    background-color: #FAF9FB;
+    border-radius: 20px;
+}
+
+.expense-title {
+    font-size: 1.4rem;
+}
+
+.expense-amount {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.expense-category {
+    background-color: #F7F4F7 !important;
+    color: #b79393;
+}
+
+.expenses-list__fallback {
+    text-align: center;
+}
